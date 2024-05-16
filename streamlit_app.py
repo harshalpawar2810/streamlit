@@ -180,13 +180,13 @@ predictors_dict = {
     'capital_loss': capital_loss,
     'hours_per_week': hours_per_week,
     'workclass': workclass_mapping[workclass],
-    'education': education_mapping[education],
-    'marital_status': marital_status_mapping[marital_status],
-    'occupation': occupation_mapping[occupation],
-    'relationship': relationship_mapping[relationship],
-    'race': race_mapping[race],
-    'sex': sex_mapping[sex],
-    'country': country_mapping[country]
+    'education': education_scaled_values[education],
+    'marital_status': marital_status_scaled_values[marital_status],
+    'occupation': occupation_scaled_values[occupation],
+    'relationship': relationship_scaled_values[relationship],
+    'race': race_scaled_values[race],
+    'sex': sex_scaled_values[sex],
+    'country': country_scaled_values[country]
 }
 
 # Prediction button
